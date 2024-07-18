@@ -1,13 +1,13 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "../components/Navbar/Navbar";
-import Navarbottom from "../components/Navbar/Navarbottom";
+import Navbar from "../components/Home/Navbar";
+import Navarbottom from "../components/Home/Navarbottom";
 
 function MainLayout() {
   return (
     <div>
       <Navbar />
-      <div className="my-16">
-        <div className="w-full min-h-screen py-1 md:w-2/3 lg:w-3/4">
+      <div>
+        <div>
           <Outlet />
         </div>
 
